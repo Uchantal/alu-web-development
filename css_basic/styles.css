@@ -8,7 +8,7 @@ main{
     display: flex;
     flex-direction: row;
     flex: auto;
-    background-color: darkgrey;
+    background-color:grey;
 
 }
 
@@ -19,4 +19,6 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+    background-color: pink;
+    color: black;
 }
