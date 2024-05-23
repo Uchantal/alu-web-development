@@ -5,8 +5,10 @@ body{
 }
 
 main{
+    display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: darkgrey;
 
 }
 
