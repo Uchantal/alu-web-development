@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Advanced html and css</title>
+</head>
+<body>
+   <header>
+        <div class="logo">
+            <img src="https://www.google.com/imgres?q=smile%20logo%20design&imgurl=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F03%2F35%2F95%2F47%2F360_F_335954772_DXpPAtzlHmqlgPkWi0oRXE33D0QYZHKd.jpg&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3D%2522smile%2Blogo%2522&docid=F1494hVBcN5OIM&tbnid=a-BdLqS7TbTewM&vet=12ahUKEwihzZDR4q2GAxUQhv0HHf2MB-UQM3oECBQQAA..i&w=600&h=360&hcb=2&ved=2ahUKEwihzZDR4q2GAxUQhv0HHf2MB-UQM3oECBQQAA" alt="smile logo">
+        </div>
+        <div class="menu">
+            
+                <ul class="listing">
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            
+        </div>
+   </header>
+
+   <main>
+    <section class="banner">
+        <div class="introduction">
+            
+            <h1>Get Schooled</h1>
+            <p>SMILES   GRIN   LOUGH</p>
+            <button>REGISTER FOR FREE</button>
+            
+        </div>
+
+        <div class="information">
+            <h2><span>Learn</span> from the pros</h2>
+        
+            <div class="content">
+                <div class="content1">
+                    <img src="data:image/jpeg;base64,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" alt="English">
+
+                    <h3>We teach several languages</h3>
+                    <p> Communication is the key</p>
+                 </div>
+                    <div class="content1">
+                    <img src="data:image/jpeg;base64,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" alt="English">
+
+                    <h3>We offer French class </h3>
+                    <p>come and join us, Speak proficiently</p>
+                </div>
+
+                <div class="content1">
+                    <img src="data:image/jpeg;base64,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" alt="English">
+                    <h3>We Offer English</h3>
+                    <p>Learn, speak and grab Job easily</p>
+                </div>
+
+                <div class="content1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRD1om8AwtB1MvtUknPNLDwQku-ZiixgT34QhBBbk1zA&s" alt="Kinyarwanda">
+                    <h3>We Teach Kinyarwanda</h3>
+                    <p>It's so amazing to know how to talk to friendly citizens of Rwanda <br>with Kinyarwanda Language</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="quote">
+        <div class="author-image">
+            <img src="https://www.biography.com/.image/t_share/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg" alt="Kagame">
+        </div>
+        
+        <div class="Author-info">
+            <blockquote>"The convidence you have while speaking shows what you're capable of doing".</blockquote>
+            <p id="name">kagame</p>
+            <p>The best president in Africa and he's loved</p>
+        </div>
+    </section>
+    <section class="video">
+        <h1>Most <span>popular</span> videos</h1>
+        <div class="videos">
+            <div class="video1">
+                
+                <h2>Chantal</h2>
+                <p>She's so determined <br>a lady with dreams</p>
+                <div class="video-title">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="Uwimana-Chantal">
+                    <h3>Chantal UWIMANA</h3>
+                </div>
+
+                <div class="author-rating">
+                    <div class="author-rating-1">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                    </div>
+                    <p>15min to complete.</p>
+                </div>
+
+            </div>
+
+            <div class="video1">
+                
+                <h2>Chantal</h2>
+                <p>I am social and <br>lovely</p>
+                <div class="video-title">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="Chantal">
+                    <h3>Chantal UWIMANA</h3>
+                </div>
+
+                <div class="author-rating">
+                    <div class="author-rating-1">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                    </div>
+                    <p>15min to complete.</p>
+                </div>
+
+            </div>
+            <div class="video1">
+                <h2>Chantal</h2>
+                <p>Very curious and <br> Always open to learn</p>
+                <div class="video-title">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="Chantal">
+                    <h3>Chantal UWIMANA</h3>
+                </div>
+                <div class="author-rating">
+                    <div class="author-rating-1">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                    </div>
+                    <p>15min to complete.</p>
+                </div>
+            </div>
+            
+            <div class="video1">
+                <h2>Chantal</h2>
+                <p>Software Engineer</p>
+                <div class="video-title">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="Chantal">
+                    <h3>Chantal UWIMANA</h3>
+                </div>
+                <div class="author-rating">
+                    <div class="author-rating-1">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQE7f5cZUOZ7wA/profile-displayphoto-shrink_200_200/0/1697837280211?e=2147483647&v=beta&t=O6aiH7s5scfSheqVYDefYlpnMZVpYixGSrZMCIcXIB0" alt="">
+                    </div>
+                    <p>15min to complete.</p>
+                </div>
+            </div>
+            
+                </div>
+
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section class="membership">
+        <h1><span>Free</span> membership</h1>
+        <div class="membership-info">
+            <div class="member1">
+                <img src="https://imageio.forbes.com/specials-images/dam/imageserve/1111699784/960x0.jpg?format=jpg&width=960" alt="Manager">
+                <h2>Manager</h2>
+                <p>Creativity and Hard work</p>
+            </div>
+            <div class="member1">
+                <img src="https://imageio.forbes.com/specials-images/dam/imageserve/1111699784/960x0.jpg?format=jpg&width=960" alt="Manager">
+                <h2>Manager</h2>
+                <p>Creativity and Hard work</p>
+            </div>
+            <div class="member1">
+                <img src="https://imageio.forbes.com/specials-images/dam/imageserve/1111699784/960x0.jpg?format=jpg&width=960" alt="Manager">
+                <h2>Manager</h2>
+                <p>Creativity and Hard work</p>
+            </div>
+            <div class="member1">
+                <img src="https://imageio.forbes.com/specials-images/dam/imageserve/1111699784/960x0.jpg?format=jpg&width=960" alt="Manager">
+                <h2>Manager</h2>
+                <p>Creativity and Hard work</p>
+            </div>
+        </div>
+        <button>Login</button>
+    </section>
+
+    <section class="questions">
+        <h1>FAQ Section</h1>
+        <div class="row">
+            <div class="row1">
+                <div class="first-column">
+                    <h2>how to Join</h2>
+                    <p>Are you proficient enough?you can speak and present, can you prepare a world class speech,I believe in you if you are willing to JSEqF3kmYqI6jjkVxHHpbWeObpXbVTiFxfHQ573km6csMDEn us and become proficient.</p>
+                </div>
+                <div class="first-column">
+                    <h2>How to register</h2>
+                    <p>Are you proficient enough?you can speak and present, can you prepare a world class speech,I believe in you if you are willing to JSEqF3kmYqI6jjkVxHHpbWeObpXbVTiFxfHQ573km6csMDEn us and become proficient</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="second-column">
+                    <h2>what to expect</h2>
+                    <p>Are you proficient enough?you can speak and present, can you prepare a world class speech,I believe in you if you are willing to JSEqF3kmYqI6jjkVxHHpbWeObpXbVTiFxfHQ573km6csMDEn us and become proficient</p>
+                </div>
+                <div class="second-column">
+                    <h2>how to start</h2>
+                    <p>Are you proficient enough?you can speak and present, can you prepare a world class speech,I believe in you if you are willing to JSEqF3kmYqI6jjkVxHHpbWeObpXbVTiFxfHQ573km6csMDEn us and become proficient</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main> 
+
+    <footer>
+        <div class="footer">
+            <div class="footer-row">
+                <img src="https://cdn.logojoy.com/wp-content/uploads/20230921104408/Facebook-logo-600x319.png" alt="">
+                <div class="footer-links">
+                    <a id ="Link1" href="#"><img src="https://static.vecteezy.com/system/resources/previews/023/986/970/original/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" alt=""></a>
+                    
+                    <a id ="Link1"href="#"><img src="https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=338&ext=jpg&ga=GA1.1.2082370165.1716768000&semt=ais_user" alt=""></a>
+                </div>
+            </div>
+            <p> End</p>
+        </div>
+    </footer>
+</body>
+</html>
